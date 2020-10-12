@@ -1,0 +1,12 @@
+.about-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+  padding: 6vw 0;
+}
+.about-columns > div {
+  width: 45%;
+}
+.about-name {
+  font-size: 40px;
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.project_container {
+  padding: 25px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  top: 50%;
+  bottom: 50%;
+}
