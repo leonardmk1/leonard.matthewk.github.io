@@ -4,25 +4,19 @@ import "./Portfolio.css";
 function Portfolio() {
   return (
     <div>
-      <div className="project_container">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolore
-          alias quidem placeat odio rem fugiat ab fugit aspernatur ad velit
-          consequatur perferendis eum quisquam recusandae dolorem, praesentium
-          aliquid qui.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolore
-          alias quidem placeat odio rem fugiat ab fugit aspernatur ad velit
-          consequatur perferendis eum quisquam recusandae dolorem, praesentium
-          aliquid qui.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolore
-          alias quidem placeat odio rem fugiat ab fugit aspernatur ad velit
-          consequatur perferendis eum quisquam recusandae dolorem, praesentium
-          aliquid qui.
-        </p>
+      <div className="project-container">
+        <div className="project project-1">
+          <a href="/">Text here</a>
+        </div>
+        <div className="project project-2">
+          <a href="/">Text here</a>
+        </div>
+        <div className="project project-3">
+          <a href="/">Text here</a>
+        </div>
+        <div className="project project-4">
+          <a href="/">Text here</a>
+        </div>
       </div>
     </div>
   );

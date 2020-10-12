@@ -6,8 +6,8 @@ export default function About() {
     <div>
       <div className="about-columns">
         <div>
-          <h3 className="about-content">
-            Hello, my name is
+          <h3>
+            <span className="about-intro">Hello, my name is</span>
             <br />
             <span className="about-name"> Matthew Leonard</span>
           </h3>
@@ -34,10 +34,21 @@ export default function About() {
         </div>
 
         <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolore
-          alias quidem placeat odio rem fugiat ab fugit aspernatur ad velit
-          consequatur perferendis eum quisquam recusandae dolorem, praesentium
-          aliquid qui.
+          <img className="about-img" src={require("../../images/Matt.jpg")} />
+          <h3 className="about-title">Education & Experience</h3>
+          <ul className="about-list">
+            <li>
+              Trilogy Full Stack Web Development Bootcamp at University of
+              Richmond
+            </li>
+            <li>
+              Bachelor's of Science in Criminal Justice at Virginia Commonweatlh
+              University
+            </li>
+            <li>
+              Special Education Teacher at Specialized Education Services Inc.
+            </li>
+          </ul>
         </div>
       </div>
     </div>
