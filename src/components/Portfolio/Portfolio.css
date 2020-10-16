@@ -35,8 +35,9 @@
 }
 
 .project-img:hover {
-  opacity: 1;
+  opacity: 0.3;
   transition: ease-in 0.5s;
+  color: #fff;
 }
 
 .project-img-1 {
@@ -55,4 +56,13 @@
 .project-text {
   position: relative;
   z-index: 200;
+  color: #edb879;
+}
+
+.project-text:hover {
+  color: #fff;
+}
+
+.project-bio {
+  margin-top: 8px;
 }

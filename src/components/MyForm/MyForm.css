@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.form-container {
+  padding: 20vh 18vw;
+  line-height: 50px;
+}
+.form-header {
+  font-size: 2.5rem;
+}
+.form-submit {
+  color: black;
+  background: #edb879;
+  border: #042f66 solid;
+  padding: 15px;
+  margin-right: 10px;
+  transition: background 0.5s;
+  font-size: 20px;
+  text-decoration: none;
+}
+.form-submit:hover {
+  background: white;
+  transition: background 0.5s;
+}
