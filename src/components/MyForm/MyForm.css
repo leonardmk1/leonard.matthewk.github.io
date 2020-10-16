@@ -7,22 +7,40 @@
 
 .form-container {
   padding: 20vh 18vw;
-  line-height: 50px;
+  line-height: 30px;
 }
 .form-header {
   font-size: 2.5rem;
+  color: #edb879;
 }
+
+.form-content {
+  font-size: 23px;
+  padding: 10px 0;
+}
+
 .form-submit {
-  color: black;
+  color: #042f66;
   background: #edb879;
-  border: #042f66 solid;
-  padding: 15px;
-  margin-right: 10px;
+  border: none;
+  padding: 13px;
   transition: background 0.5s;
   font-size: 20px;
   text-decoration: none;
+  border-radius: 5px;
 }
 .form-submit:hover {
   background: white;
   transition: background 0.5s;
+}
+.form-input {
+  width: 100%;
+  line-height: 25px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 14px;
+  margin-top: 8px;
+  padding: 8px 0;
+  color: black;
+  font-size: 20px;
 }

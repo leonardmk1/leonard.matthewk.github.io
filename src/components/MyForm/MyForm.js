@@ -15,19 +15,25 @@ export default class MyForm extends React.Component {
     return (
       <div className="form-container">
         <h3 className="form-header">Contact Me</h3>
+        <br />
         <form
           onSubmit={this.submitForm}
           action="https://formspree.io/f/xjvpykke"
           method="POST"
         >
           <div className="form-content">
-            <label>Email:</label>
-            <input type="email" name="email" />
+            <label>Email</label>
+            <input className="form-input" type="email" name="email" />
 
-            <label>Message:</label>
-            <input type="text" name="message" />
+            <label>Message</label>
+            <textarea
+              className="form-input"
+              type="text"
+              name="message"
+              rows="4"
+              cols="50"
+            />
           </div>
-          <br />
           {status === "SUCCESS" ? (
             <p>Thanks!</p>
           ) : (
