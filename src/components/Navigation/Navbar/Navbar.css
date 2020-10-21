@@ -46,6 +46,11 @@
 .navbar_navigation-items a:hover,
 .navbar_navigation-items a:active {
   color: #edb879;
+  text-decoration: underline;
+}
+.navbar__logo a:hover,
+.navbar__logo a:active {
+  color: #edb879;
 }
 
 @media (max-width: 768px) {

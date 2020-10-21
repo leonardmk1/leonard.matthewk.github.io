@@ -22,7 +22,7 @@ export default class MyForm extends React.Component {
           method="POST"
         >
           <div className="form-content">
-            <label>Email</label>
+            <label>Your Email</label>
             <input className="form-input" type="email" name="email" />
 
             <label>Message</label>

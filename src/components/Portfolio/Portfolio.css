@@ -67,7 +67,18 @@
   margin-top: 8px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
+  .project-container {
+    flex-direction: column;
+    position: static;
+  }
   .project {
+    width: 100%;
+    position: relative;
+    height: 40vh;
+  }
+  .project-img {
+    width: 100%;
+    opacity: 0.3;
   }
 }
