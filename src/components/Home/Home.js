@@ -12,7 +12,7 @@ export default function Home() {
           </h2>
           <small>Currently looking for a job in web development</small>
           <div>
-            <Link to="/porfolio">
+            <Link to="/portfolio">
               <button className="home-button">View Projects</button>
             </Link>
             <Link to="/contact">
