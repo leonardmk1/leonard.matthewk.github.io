@@ -16,13 +16,13 @@ const navbar = (props) => (
       <div className="navbar_navigation-items">
         <ul>
           <li>
-            <a href="/Portfolio">Portfolio</a>
+            <a href="/portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="/About">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="/Contact">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </div>
