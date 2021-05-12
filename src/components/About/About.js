@@ -22,7 +22,7 @@ export default function About() {
             I have been searching for the career that can withstand my constant
             need for mental stimulation and I believe that I have found a field
             that will always challenge me and fulfill that side me. I am
-            constainly curious and am also looking to larn and improve my
+            constantly curious and am also looking to learn and improve my
             understanding no matter the topic.
           </p>
           <br />
